@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+double minhaIdade = 2.5;
+int tuaIdade = 13;
+int biaTdade = 10;
+double IdadeTotal = minhaIdade ;
+printf("a idade total é %f\n",IdadeTotal);
+
+  return 0;
+}
