@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main() {
+ int contador;
+ int numero = 1;
+ 
+ for(contador=1; contador<=20;contador = contador + 1) {
+printf("teste\n");
+ }
+return 0;
+}
+
+\\ WHILE
+#include<stdio.h>
+
+int main() {
+ int contador = 1;
+
+while(contador<=10000) {
+  printf("%i\n", contador);
+  contador = contador + 100;
+}
+return 0;
+}
