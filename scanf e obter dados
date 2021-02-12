@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+  int base;
+  int altura;
+  int area;
+  printf("a base é:");
+  scanf("%i", &base);
+
+  printf("a altura é:");
+  scanf("%i",&altura);
+  area = base * altura;
+  printf("a area é %i", area);
+return 0;
+}
