@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-
+\\ as variaveis sao inteiros
 int main() {
   int base;
   int altura;
@@ -17,7 +17,7 @@ return 0;
 
 #include<stdio.h>
 #include<math.h>
-
+\\ ja aqui as variaveis sao fracionarios
 int main() {
   float base;
   float altura;
