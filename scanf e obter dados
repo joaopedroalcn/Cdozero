@@ -14,3 +14,20 @@ int main() {
   printf("a area é %i", area);
 return 0;
 }
+
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+  float base;
+  float altura;
+  float area;
+  printf("a base é:");
+  scanf("%f", &base);
+
+  printf("a altura é:");
+  scanf("%f",&altura);
+  area = base * altura;
+  printf("a area é %f", area);
+return 0;
+}
